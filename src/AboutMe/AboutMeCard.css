@@ -1,0 +1,45 @@
+.experience {
+  /* background: linear-gradient(
+    90deg,
+    rgba(116, 117, 119, 0.96) 0%,
+    rgba(33, 37, 41, 0.4) 100%
+  ); */
+  opacity: 0.8;
+  background-color: rgb(117, 128, 133) !important;
+  min-height: 200px;
+  padding: 0px 15px 0px 15px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.skills {
+  opacity: 0.8;
+  min-height: 150px;
+  min-width: 120px;
+  background-color: rgb(117, 128, 133) !important;
+  padding: 5px;
+  color: black;
+}
+.experience > p {
+  font-size: 15px;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+}
+.experience > h3 {
+  font-size: 25px;
+  color: White;
+  opacity: 1;
+  text-align: center;
+}
+.background {
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(
+      90deg,
+      rgba(116, 117, 119, 0.96) 0%,
+      rgba(33, 37, 41, 0.4) 100%
+    )
+    repeat scroll 0% 0%;
+  opacity: 0.8;
+  max-width: 200px;
+  min-height: 150px;
+}
