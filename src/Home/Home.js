@@ -22,6 +22,7 @@ class Home extends Component {
       <>
         <div className="StyledDiv">
           <Section1 />
+
           {/* <section className="section2">
             <div className="NameSection">
               <div className="NameSection-styled">

@@ -14,9 +14,9 @@ class HomeCards extends Component {
         style={{
           backgroundColor: "#879598  !important",
           opacity: "0.8",
-          background:
-            "linear-gradient( 90deg, rgba(116, 117, 119, 0.96) 0%, rgba(33, 37, 41, 0.4) 100% )",
-          padding: "5px",
+          //   background:
+          //     "linear-gradient( 90deg, rgba(116, 117, 119, 0.96) 0%, rgba(33, 37, 41, 0.4) 100% )",
+          //   padding: "5px",
         }}
       >
         <CardContent style={{ backgroundColor: "#879598 " }}>

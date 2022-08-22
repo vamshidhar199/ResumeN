@@ -1,0 +1,12 @@
+.image-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .image-container {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -24,6 +24,8 @@
   text-align: center;
   color: black;
   font-weight: 500;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .experience > h3 {
   font-size: 25px;

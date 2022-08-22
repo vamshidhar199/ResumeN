@@ -9,8 +9,10 @@
 
 .section1 {
   animation: 1s ease-out 0s 1 slideInLeft;
-  grid-column-start: 1;
-  grid-column-end: span 2;
+  grid-column-end: span 3;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 .NameSection {
   display: inline-flex;
@@ -29,6 +31,7 @@
   position: relative;
   transition: 0.5s ease 0s;
   border-radius: 16px;
+  margin-left: -10px;
 }
 
 .ul-name {

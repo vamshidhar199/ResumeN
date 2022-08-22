@@ -1,22 +1,49 @@
 import React, { Component } from "react";
 import "./AboutMeCard.css";
+import { MdBadge, MdCastForEducation } from "react-icons/md";
+
+import { VscCode } from "react-icons/vsc";
 class AboutMeCard extends Component {
   state = {};
   render() {
     return (
       <div className="container-fluid">
         <div className="row">
-          <div className="col-sm-2">
+          <div className="col-sm-4">
             <div className="skills ">
-              <h3></h3>
+              <h3 style={{ textAlign: "center" }}>
+                <MdBadge />
+              </h3>
               <p style={{ textAlign: "center" }}>
-                17 months <br></br>of experience<br></br>as<br></br>Software
-                Developer Contractor<br></br> at <br></br>Apple
+                17 months <br></br>of experience as<br></br>Software Developer
+                Contractor<br></br> at <br></br>Apple
               </p>
             </div>
           </div>
-          <div className="col-sm-2"></div>
-          <div className="col-sm-2"></div>
+
+          <div className="col-sm-4">
+            <div className="skills ">
+              <h3 style={{ textAlign: "center" }}>
+                <MdCastForEducation />
+              </h3>
+              <p style={{ textAlign: "center" }}>
+                Master's <br></br>in<br></br>Software Engineering<br></br>at
+                <br></br> San Jose State University <br></br>San Jose,
+                California
+              </p>
+            </div>
+          </div>
+          <div className="col-sm-4">
+            <div className="skills ">
+              <h3 style={{ textAlign: "center" }}>
+                <VscCode />
+              </h3>
+              <p style={{ textAlign: "center" }}>
+                250+ <br></br>questions<br></br>of<br></br>leetcode<br></br>{" "}
+                this <br></br>year
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="row">
@@ -24,14 +51,13 @@ class AboutMeCard extends Component {
             <div className="experience ">
               <h3></h3>
               <p>
-                I am a self driven computer science enthusiast, and I believe in
-                hard work. My area of interest lies in FullStack Development,
-                Machine learning and Neural Networks. I am an avid coder and
-                really like working with data structures and algorithms. I am
-                looking to work in the software domain where I can put my skills
-                to use and make a difference. At the same time I am willing to
-                put in all my effort to do whatever it takes to achieve my
-                goals.
+                I am a self-motivated computer science student who values
+                perseverance. Full Stack development and machine learning are my
+                main areas of interest. I enjoy working with data structures and
+                algorithms because I am an active programmer. I'm searching for
+                employment in the software industry where I can apply my skills
+                and make a difference. Also, I'm ready to work tirelessly to
+                take whatever necessary steps to accomplish my objectives.
               </p>
             </div>
           </div>

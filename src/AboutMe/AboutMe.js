@@ -1,16 +1,25 @@
 import React, { Component } from "react";
 import AboutMeCard from "./AboutMeCard";
+import myimage from "./../images/vamshi.jpg";
+import "./AboutMe.css";
 class AboutMe extends Component {
   state = {};
   render() {
     return (
       <div className="container-fluid">
-        <div className="row" style={{ marginBottom: "50px" }}>
-          <h1 style={{ textAlign: "left", color: "white" }}>About Me</h1>
+        <div className="row" style={{ marginBottom: "10px" }}>
+          <h1 style={{ textAlign: "center", color: "white" }}>About Me</h1>
         </div>
-        <div className="row" style={{ padding: "0px 70px 0px 70px" }}>
-          <div className="col-sm-6">
-            <p>Images comes here</p>
+        <div className="row">
+          <div
+            className="col-sm-4 image-container"
+            // style={{ display: "flex", justifyContent: "flex-end" }}
+          >
+            <img
+              src={myimage}
+              height="420px"
+              style={{ marginLeft: "20px", borderRadius: "5px" }}
+            ></img>
           </div>
           <div className="col-sm-6">
             <AboutMeCard />

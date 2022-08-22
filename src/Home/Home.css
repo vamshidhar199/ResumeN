@@ -75,6 +75,17 @@
   min-width: 0px;
   position: relative;
 }
+@media only screen and (max-width: 600px) {
+  .NameSection-styled {
+    padding: 24px 56px 24px 24px;
+    max-width: 100%;
+    width: initial;
+    position: relative;
+    transition: 0.5s ease 0s;
+    border-radius: 16px;
+    margin-left: -10px;
+  }
+}
 
 .NameSection-styled {
   padding: 24px 56px 24px 24px;
