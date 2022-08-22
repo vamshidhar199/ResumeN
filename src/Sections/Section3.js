@@ -55,18 +55,16 @@ class Section3 extends Component {
                     }}
                   />
                 </Tooltip>
-                {/* <div className="widgetsIcons">
-                     
-                      <Tooltip title="Call Me">
-                        <AiFillPhone
-                          style={{ color: "white", fontSize: "30px" }}
-                          onClick={() => {
-                            window.location.href =
-                              "mailto:vparupally@gmail.com";
-                          }}
-                        />
-                      </Tooltip>
-                    </div> */}
+              </div>
+              <div className="widgetsIcons">
+                <Tooltip title="Message Me">
+                  <AiFillPhone
+                    style={{ color: "white", fontSize: "30px" }}
+                    onClick={() => {
+                      window.open("https://wa.me/+16194968541", "_blank");
+                    }}
+                  />
+                </Tooltip>
               </div>
             </div>
           </div>
