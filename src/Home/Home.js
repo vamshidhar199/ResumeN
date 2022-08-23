@@ -14,6 +14,7 @@ import "reactjs-popup/dist/index.css";
 import Section3 from "../Sections/Section3";
 import HomeGrid from "../Grid/HomeGrid";
 import AboutMe from "../AboutMe/AboutMe";
+import Tools from "../Tools/Tools";
 
 class Home extends Component {
   state = {};
@@ -41,6 +42,8 @@ class Home extends Component {
         </div>
         <AboutMe />
         <HomeGrid />
+        <Tools />
+        {/* footer */}
       </>
     );
   }
