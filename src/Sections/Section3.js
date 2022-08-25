@@ -6,7 +6,6 @@ import {
   AiFillPhone,
 } from "react-icons/ai";
 import Resume from "./../Resume/VamshidharReddyParupally.pdf";
-import Popup from "reactjs-popup";
 import Tooltip from "@mui/material/Tooltip";
 
 class Section3 extends Component {
