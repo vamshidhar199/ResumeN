@@ -18,3 +18,9 @@
   display: flex;
   /* justify-content: center; */
 }
+@media only screen and (max-width: 600px) {
+  .contactmeMobile {
+    display: flex;
+    justify-content: center;
+  }
+}

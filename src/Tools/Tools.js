@@ -14,7 +14,7 @@ class Tools extends Component {
   state = {};
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container-fluid mobileClass">
         <div className="row" style={{ marginBottom: "10px" }}>
           <h1 style={{ textAlign: "center", color: "white" }}>Technologies</h1>
         </div>
@@ -62,7 +62,7 @@ class Tools extends Component {
           <div className="col-sm">
             <div className="row techBack">
               <div
-                className="col-sm"
+                className="col-sm tech"
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
@@ -72,7 +72,7 @@ class Tools extends Component {
               </div>
 
               <div
-                className="col-sm"
+                className="col-sm tech"
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
@@ -82,7 +82,7 @@ class Tools extends Component {
               </div>
 
               <div
-                className="col-sm"
+                className="col-sm tech"
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
@@ -92,7 +92,7 @@ class Tools extends Component {
               </div>
 
               <div
-                className="col-sm"
+                className="col-sm tech"
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
@@ -101,7 +101,7 @@ class Tools extends Component {
                 </div>
               </div>
               <div
-                className="col-sm"
+                className="col-sm tech"
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
@@ -111,7 +111,7 @@ class Tools extends Component {
               </div>
 
               <div
-                className="col-sm"
+                className="col-sm tech"
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
@@ -121,7 +121,7 @@ class Tools extends Component {
               </div>
 
               <div
-                className="col-sm"
+                className="col-sm tech"
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>

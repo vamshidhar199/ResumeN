@@ -35,19 +35,19 @@ class HomeGrid extends Component {
           </h1>
         </div>
         <div class="row" style={{ marginRight: "10px" }}>
-          <div class="col-sm card-padding">
+          <div class="col-sm card-padding card-paddingMob">
             <HomeCards
               projectname="e-Diligence Predict"
               description={description.ediligence}
             />
           </div>
-          <div class="col-sm card-padding">
+          <div class="col-sm card-padding card-paddingMob">
             <HomeCards
               projectname="Walmart Sales Prediction"
               description={description.walmart}
             />
           </div>
-          <div class="col-sm card-padding">
+          <div class="col-sm card-padding ">
             <HomeCards
               projectname="Crypto Tracker"
               description={description.crypto}

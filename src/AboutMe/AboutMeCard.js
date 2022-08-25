@@ -7,12 +7,12 @@ class AboutMeCard extends Component {
   state = {};
   render() {
     return (
-      <div className="container-fluid">
+      <div className="container-fluid aboutMeMobile">
         <div className="row">
           <div className="col-sm-4">
             <div className="skills ">
               <h3 style={{ textAlign: "center" }}>
-                <MdBadge />
+                <MdBadge className="mobileIcon" />
               </h3>
               <p style={{ textAlign: "center" }}>
                 17 months <br></br>of experience as<br></br>Software Developer
@@ -24,7 +24,7 @@ class AboutMeCard extends Component {
           <div className="col-sm-4">
             <div className="skills ">
               <h3 style={{ textAlign: "center" }}>
-                <MdCastForEducation />
+                <MdCastForEducation className="mobileIcon" />
               </h3>
               <p style={{ textAlign: "center" }}>
                 Master's <br></br>in<br></br>Software Engineering<br></br>at
@@ -36,7 +36,7 @@ class AboutMeCard extends Component {
           <div className="col-sm-4">
             <div className="skills ">
               <h3 style={{ textAlign: "center" }}>
-                <VscCode />
+                <VscCode className="mobileIcon" />
               </h3>
               <p style={{ textAlign: "center" }}>
                 250+ <br></br>questions<br></br>of<br></br>leetcode<br></br>{" "}
@@ -52,7 +52,7 @@ class AboutMeCard extends Component {
               <h3></h3>
               <p>
                 I am a self-motivated computer science student who values
-                perseverance. Full Stack development and machine learning are my
+                perseverance. Full Stack development and cloud computing are my
                 main areas of interest. I enjoy working with data structures and
                 algorithms because I am an active programmer. I'm searching for
                 employment in the software industry where I can apply my skills

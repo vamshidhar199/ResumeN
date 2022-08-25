@@ -3,3 +3,15 @@
   opacity: 0.8;
   padding: 10px;
 }
+@media only screen and (max-width: 600px) {
+  .mobileClass {
+    margin-top: 60px;
+  }
+}
+.tech {
+  transition: transform 0.2s; /* Animation */
+}
+.tech:hover {
+  /* background-color: yellow; */
+  transform: scale(1.3);
+}

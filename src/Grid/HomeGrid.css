@@ -1,3 +1,10 @@
+@keyframes hoverPop {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+}
+
 .homegrid-main {
   /* margin-left: 30px; */
   margin-top: 30px;
@@ -9,4 +16,14 @@
   margin-left: 10px;
   margin-right: 10px;
   height: 285px;
+  transition: transform 0.2s; /* Animation */
+}
+@media only screen and (max-width: 600px) {
+  .card-paddingMob {
+    margin-bottom: 25px;
+  }
+}
+
+.card-padding:hover {
+  transform: scale(1.1);
 }

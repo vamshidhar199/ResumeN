@@ -29,8 +29,8 @@ class Home extends Component {
             <div className="NameSection" style={{ marginTop: "15px" }}>
               <div className="NameSection-styled">
                 <ul className="ul-name">
-                  <li>
-                    <span className="font-style font-style-gpa">
+                  <li className="ul-anim">
+                    <span className="font-style font-style-gpa ">
                       Phone: (619) 496 8541 <br></br>Email: vparupally@gmail.com
                     </span>
                   </li>
