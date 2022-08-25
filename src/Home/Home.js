@@ -15,6 +15,7 @@ import Section3 from "../Sections/Section3";
 import HomeGrid from "../Grid/HomeGrid";
 import AboutMe from "../AboutMe/AboutMe";
 import Tools from "../Tools/Tools";
+import Footer from "../Footer/Footer";
 
 class Home extends Component {
   state = {};
@@ -24,8 +25,8 @@ class Home extends Component {
         <div className="StyledDiv">
           <Section1 />
 
-          {/* <section className="section2">
-            <div className="NameSection">
+          <section className="section2">
+            <div className="NameSection" style={{ marginTop: "15px" }}>
               <div className="NameSection-styled">
                 <ul className="ul-name">
                   <li>
@@ -36,7 +37,7 @@ class Home extends Component {
                 </ul>
               </div>
             </div>
-          </section> */}
+          </section>
 
           <Section3 />
         </div>
@@ -44,6 +45,7 @@ class Home extends Component {
         <HomeGrid />
         <Tools />
         {/* footer */}
+        <Footer />
       </>
     );
   }

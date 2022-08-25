@@ -1,7 +1,13 @@
 import React, { Component } from "react";
 import Tooltip from "@mui/material/Tooltip";
 import "./Tools.css";
-import { DiReact, DiSpark, DiJava, DiJavascript1 } from "react-icons/di";
+import {
+  DiReact,
+  DiSpark,
+  DiJava,
+  DiJavascript1,
+  DiNodejs,
+} from "react-icons/di";
 import { SiApachekafka, SiJavascript, SiRedux } from "react-icons/si";
 
 class Tools extends Component {
@@ -11,6 +17,9 @@ class Tools extends Component {
       <div className="container-fluid">
         <div className="row" style={{ marginBottom: "10px" }}>
           <h1 style={{ textAlign: "center", color: "white" }}>Technologies</h1>
+        </div>
+        <div className="row">
+          <div className="col-sm-4"></div>
         </div>
         <div className="row">
           <div
@@ -67,7 +76,7 @@ class Tools extends Component {
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
-                  <DiReact style={{ fontSize: "40px" }} />
+                  <DiReact style={{ fontSize: "50px", marginLeft: "10px" }} />
                   <p>React JS</p>
                 </div>
               </div>
@@ -77,10 +86,11 @@ class Tools extends Component {
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
-                  <DiJavascript1 style={{ fontSize: "40px" }} />
-                  <p>Java Script</p>
+                  <DiNodejs style={{ fontSize: "50px", marginLeft: "10px" }} />
+                  <p>Node JS</p>
                 </div>
               </div>
+
               <div
                 className="col-sm"
                 style={{ display: "flex", justifyContent: "center" }}
@@ -107,6 +117,18 @@ class Tools extends Component {
                 <div>
                   <DiSpark style={{ fontSize: "50px" }} />
                   <p>Spark</p>
+                </div>
+              </div>
+
+              <div
+                className="col-sm"
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <div>
+                  <DiJavascript1
+                    style={{ fontSize: "50px", marginLeft: "10px" }}
+                  />
+                  <p>Java Script</p>
                 </div>
               </div>
             </div>

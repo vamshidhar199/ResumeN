@@ -1,0 +1,20 @@
+.footer {
+  height: 150px;
+  background-color: white;
+  opacity: 0.8;
+  margin-top: 60px;
+  padding-top: 20px;
+}
+.inside-footer > h3 {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.contactme > h4 {
+  display: flex;
+  justify-content: center;
+}
+.contactme {
+  display: flex;
+  /* justify-content: center; */
+}
