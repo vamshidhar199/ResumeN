@@ -9,7 +9,7 @@
   background-repeat: no-repeat;
   font-family: Poppins, sans-serif;
   position: fixed;
-  overflow: scroll;
+  /* overflow: scroll; */
   width: 100%;
 }
 
