@@ -8,7 +8,7 @@ class Section1 extends Component {
       <>
         <section className="section1">
           <div className="NameSection">
-            <div className="NameSection-styled">
+            <div className="NameSection-styled NameSection-styledMob">
               <ul className="ul-name">
                 <li>
                   <Spring
@@ -35,8 +35,7 @@ class Section1 extends Component {
                       {(props) => (
                         <animated.div style={props}>
                           {" "}
-                          Master's Student at SJSU | Ex Software Developer at
-                          TCS
+                          Master's Student at SJSU |ex Software Developer at TCS
                         </animated.div>
                       )}
                     </Spring>

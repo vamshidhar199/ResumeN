@@ -47,7 +47,7 @@ class HomeGrid extends Component {
               description={description.walmart}
             />
           </div>
-          <div class="col-sm card-padding ">
+          <div class="col-sm card-padding card-paddingMob">
             <HomeCards
               projectname="Crypto Tracker"
               description={description.crypto}
@@ -55,13 +55,13 @@ class HomeGrid extends Component {
           </div>
         </div>
         <div class="row" style={{ marginRight: "10px" }}>
-          <div class="col-sm card-padding">
+          <div class="col-sm card-padding card-paddingMob">
             <HomeCards
               projectname="Cascade [Project at Apple Inc]"
               description={description.cascade}
             />
           </div>
-          <div class="col-sm card-padding">
+          <div class="col-sm card-padding card-paddingMob">
             <HomeCards
               projectname="Drowsiness Detection System"
               description={description.drowsiness}

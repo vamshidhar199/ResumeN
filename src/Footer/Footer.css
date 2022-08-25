@@ -23,4 +23,11 @@
     display: flex;
     justify-content: center;
   }
+  .footer {
+    height: 250px;
+    background-color: white;
+    opacity: 0.8;
+    margin-top: 60px;
+    padding-top: 20px;
+  }
 }

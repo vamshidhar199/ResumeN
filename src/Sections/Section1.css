@@ -72,3 +72,9 @@
   margin-top: 8px;
   font-family: Poppins, sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+  .NameSection-styledMob {
+    max-width: 87% !important;
+  }
+}
