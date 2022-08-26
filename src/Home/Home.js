@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Home.css";
 
 import Section1 from "../Sections/Section1";
+import Experience from "../MyExperience/Experience";
 import Avatar from "@mui/material/Avatar";
 import Stack from "@mui/material/Stack";
 import Tooltip from "@mui/material/Tooltip";
@@ -45,6 +46,7 @@ class Home extends Component {
         <HomeGrid />
         <Tools />
         {/* footer */}
+        <Experience />
         <Footer />
       </>
     );
