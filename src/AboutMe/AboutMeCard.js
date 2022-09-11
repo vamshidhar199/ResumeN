@@ -27,8 +27,8 @@ class AboutMeCard extends Component {
                 <MdCastForEducation className="mobileIcon" />
               </h3>
               <p style={{ textAlign: "center" }}>
-                Master's <br></br>in<br></br>Software Engineering<br></br>at
-                <br></br> San Jose State University <br></br>San Jose,
+                Master's in<br></br>Software Engineering<br></br>at
+                <br></br> San Jose State University, San Jose,
                 California
               </p>
             </div>
