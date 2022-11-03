@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import AboutMeCard from "./AboutMeCard";
 import myimage from "./../images/vamshi.jpg";
 import "./AboutMe.css";
+import Overview from "./Overview";
 class AboutMe extends Component {
   state = {};
   render() {
@@ -12,7 +13,7 @@ class AboutMe extends Component {
         </div>
         <div className="row">
           <div
-            className="col-sm-4 image-container"
+            className="col-sm-2 image-container"
             // style={{ display: "flex", justifyContent: "flex-end" }}
           >
             <img
@@ -23,6 +24,12 @@ class AboutMe extends Component {
           </div>
           <div className="col-sm-6">
             <AboutMeCard />
+          </div>
+          <div
+            className="col-sm-4 image-container"
+            // style={{ display: "flex", justifyContent: "flex-end" }}
+          >
+            <Overview/>
           </div>
         </div>
       </div>

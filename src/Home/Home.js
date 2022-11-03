@@ -3,14 +3,14 @@ import "./Home.css";
 
 import Section1 from "../Sections/Section1";
 import Experience from "../MyExperience/Experience";
-import Avatar from "@mui/material/Avatar";
-import Stack from "@mui/material/Stack";
-import Tooltip from "@mui/material/Tooltip";
+//import Avatar from "@mui/material/Avatar";
+//import Stack from "@mui/material/Stack";
+//import Tooltip from "@mui/material/Tooltip";
 import { deepOrange, deepPurple } from "@mui/material/colors";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import Resume from "./../Resume/VamshidharReddyParupally.pdf";
-import Popup from "reactjs-popup";
-import "reactjs-popup/dist/index.css";
+//import Popup from "reactjs-popup";
+//import "reactjs-popup/dist/index.css";
 
 import Section3 from "../Sections/Section3";
 import HomeGrid from "../Grid/HomeGrid";
