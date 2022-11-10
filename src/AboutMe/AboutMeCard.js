@@ -16,7 +16,7 @@ class AboutMeCard extends Component {
               </h3>
               <p style={{ textAlign: "center" }}>
                 17 months <br></br>of experience as<br></br>Software Developer
-                Contractor<br></br> at <br></br>Apple
+                Contractor at <br></br>Apple
               </p>
             </div>
           </div>
@@ -28,8 +28,7 @@ class AboutMeCard extends Component {
               </h3>
               <p style={{ textAlign: "center" }}>
                 Master's in<br></br>Software Engineering<br></br>at
-                <br></br> San Jose State University, San Jose,
-                California
+                <br></br> San Jose State University, San Jose, California
               </p>
             </div>
           </div>
@@ -39,8 +38,8 @@ class AboutMeCard extends Component {
                 <VscCode className="mobileIcon" />
               </h3>
               <p style={{ textAlign: "center" }}>
-                250+ <br></br>questions<br></br>of<br></br>leetcode<br></br>{" "}
-                this <br></br>year
+                300+ <br></br>questions of<br></br>leetcode<br></br> this{" "}
+                <br></br>year
               </p>
             </div>
           </div>
