@@ -20,6 +20,8 @@ class HomeGrid extends Component {
         "Cascade is a central application for apple's sales details, which provides data to downstream applications. My role here was to work primarily on the UI and services (GSF). I have developed intuitive web designs and faster APIs to improve the efficiency of the application.",
       drowsiness:
         "It is an OpenCV project designed to alert the driver if he is feeling drowsy and alert him by generating sound to wake him thereby preventing fatal accidents. I have used OpenCV libraries for image recognition, and python and flask to develop user interface for this application.",
+      drone:
+        "Cloud based infrastructure to automate the process of drone services for agricultural surveying using mission planner and ardupilot simulated drones, with a minimal human intervention. Automated the drone path to collect the data remotly and send to the cloud application",
     };
     return (
       <div className="container-fluid homegrid-main">
@@ -37,6 +39,12 @@ class HomeGrid extends Component {
         <div class="row" style={{ marginRight: "10px" }}>
           <div class="col-sm card-padding card-paddingMob">
             <HomeCards
+              projectname="Autonomus Drone System"
+              description={description.drone}
+            />
+          </div>
+          <div class="col-sm card-padding card-paddingMob">
+            <HomeCards
               projectname="e-Diligence Predict"
               description={description.ediligence}
             />
@@ -47,14 +55,14 @@ class HomeGrid extends Component {
               description={description.walmart}
             />
           </div>
+        </div>
+        <div class="row" style={{ marginRight: "10px" }}>
           <div class="col-sm card-padding card-paddingMob">
             <HomeCards
               projectname="Crypto Tracker"
               description={description.crypto}
             />
           </div>
-        </div>
-        <div class="row" style={{ marginRight: "10px" }}>
           <div class="col-sm card-padding card-paddingMob">
             <HomeCards
               projectname="Cascade [Project at Apple Inc]"
