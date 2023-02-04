@@ -15,12 +15,13 @@ class Experience extends Component {
         </div>
         <div className="row">
           <div className="col-sm exp-box exp-box-mob">
-            <img src={agi} className="exp-box-img"></img>
+            <img src={sjsu} className="exp-box-img"></img>
             <p className="exp-box-p">
-              Bachelor's in Information Technology <br></br>
-              2016 - 2020
+              Master's in Software Engineering <br></br>
+              2022 - 2023
             </p>
           </div>
+
           <div className="col-sm exp-box exp-box-mob">
             {" "}
             <img src={tcs} className="exp-box-img"></img>
@@ -37,10 +38,10 @@ class Experience extends Component {
             </p>
           </div>
           <div className="col-sm exp-box exp-box-mob">
-            <img src={sjsu} className="exp-box-img"></img>
+            <img src={agi} className="exp-box-img"></img>
             <p className="exp-box-p">
-              Master's in Software Engineering <br></br>
-              2022 - 2023
+              Bachelor's in Information Technology <br></br>
+              2016 - 2020
             </p>
           </div>
         </div>

@@ -18,11 +18,11 @@ class Overview extends Component {
               className="exp-box-img"
               style={{ display: "inline", paddingLeft: "0px" }}
             ></img>
-            <h6>2022-Till Date</h6>
+            <h6>2022-2023</h6>
             <div className="row">
-              <div className="col-sm" style={{ paddingLeft: "11px" }}>
-                <p>Teaching Assistant </p>
-                <p>Master's in Software Engineering</p>
+              <div className="col-sm" style={{ paddingLeft: "50px" }}>
+                <p className="listing">Teaching Assistant </p>
+                <p className="listing">Master's in Software Engineering</p>
               </div>
             </div>
           </div>
@@ -31,10 +31,10 @@ class Overview extends Component {
           <div className="col-sm" style={{ display: "inline-block" }}>
             <h4>TCS - client Apple</h4>
             {/* <AiFillApple fontSize={"50px"} style={{ paddingLeft: "0px" }} /> */}
-            <h6>2020-2021</h6>
+            <h6>2020-2022</h6>
             <div className="row">
-              <div className="col-sm" style={{ paddingLeft: "11px" }}>
-                <p>Software Developer</p>
+              <div className="col-sm" style={{ paddingLeft: "50px" }}>
+                <p className="listing">Software Developer</p>
                 <p></p>
               </div>
             </div>
@@ -50,8 +50,8 @@ class Overview extends Component {
             ></img>
             <h6>2016-2020</h6>
             <div className="row">
-              <div className="col-sm" style={{ paddingLeft: "11px" }}>
-                <p>Bachelor's in Information Technology</p>
+              <div className="col-sm" style={{ paddingLeft: "50px" }}>
+                <p className="listing">Bachelor's in Information Technology</p>
                 <p></p>
               </div>
             </div>

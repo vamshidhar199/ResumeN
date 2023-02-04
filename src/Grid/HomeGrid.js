@@ -10,8 +10,8 @@ class HomeGrid extends Component {
 
   render() {
     let description = {
-      ediligence:
-        " eDiligence is an AI enabled solution to predict and mitigate risk in real estate projects. e-Diligence predict is a React JS based web application that collects data from users and feeds it to the models and consumes the predictions to warn the users about the potential risks",
+      airportManagement:
+        "Developed airport management system web app using React JS, Node JS, and MongoDB. Provided comprehensive solution for managing flight schedules, employee logins, and added features such as adding flights, updating schedules, auto-assigning baggage carousels and gates",
       walmart:
         "Created Models using LSTM, and LightGBM, which was used to predict the future sales trends. Performed data pre-processing and cleaning along with feature selection and feature extraction. I have used Hyper tuning to improve the performance and accuracy of the model.",
       crypto:
@@ -21,7 +21,7 @@ class HomeGrid extends Component {
       drowsiness:
         "It is an OpenCV project designed to alert the driver if he is feeling drowsy and alert him by generating sound to wake him thereby preventing fatal accidents. I have used OpenCV libraries for image recognition, and python and flask to develop user interface for this application.",
       drone:
-        "Cloud based infrastructure to automate the process of drone services for agricultural surveying using mission planner and ardupilot simulated drones, with a minimal human intervention. Automated the drone path to collect the data remotly and send to the cloud application",
+        "Developed autonomous drone rental system for farm surveying and pesticide spraying using cloud mission planning and Ardupilot simulation. Designed to allow farmers to easily book services by registering their farm coordinates, ensuring drones fly to the correct location and return safely.",
     };
     return (
       <div className="container-fluid homegrid-main">
@@ -39,14 +39,14 @@ class HomeGrid extends Component {
         <div class="row" style={{ marginRight: "10px" }}>
           <div class="col-sm card-padding card-paddingMob">
             <HomeCards
-              projectname="Autonomus Drone System"
+              projectname="Autonomus Drone Rental System"
               description={description.drone}
             />
           </div>
           <div class="col-sm card-padding card-paddingMob">
             <HomeCards
-              projectname="e-Diligence Predict"
-              description={description.ediligence}
+              projectname="Airport Management System"
+              description={description.airportManagement}
             />
           </div>
           <div class="col-sm card-padding card-paddingMob">

@@ -49,14 +49,16 @@ class AboutMeCard extends Component {
           <div className="col-sm">
             <div className="experience ">
               <h3></h3>
-              <p>
-                I am a self-motivated computer science student who values
-                perseverance. Full Stack development and cloud computing are my
-                main areas of interest. I enjoy working with data structures and
-                algorithms because I am an active programmer. I'm searching for
-                employment in the software industry where I can apply my skills
-                and make a difference. Also, I'm ready to work tirelessly to
-                take whatever necessary steps to accomplish my objectives.
+              <p style={{ textAlign: "justify" }}>
+                As a self-motivated computer science student with a passion for
+                full-stack development and cloud computing, I possess a strong
+                drive to apply my skills and make a meaningful impact in the
+                software industry. I have a solid understanding of data
+                structures and algorithms and regularly engage in programming
+                activities to further my skills. I value perseverance and am
+                committed to working tirelessly to achieve my goals. I am eager
+                to join a dynamic and innovative software company where I can
+                contribute my skills and grow as a professional.
               </p>
             </div>
           </div>
