@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./AboutMeCard.css";
 import { MdBadge, MdCastForEducation } from "react-icons/md";
-
+import { GiPoliceOfficerHead } from "react-icons/gi";
 import { VscCode } from "react-icons/vsc";
 class AboutMeCard extends Component {
   state = {};
@@ -15,7 +15,7 @@ class AboutMeCard extends Component {
                 <MdBadge className="mobileIcon" />
               </h3>
               <p style={{ textAlign: "center" }}>
-                17 months <br></br>of experience as<br></br>Software Developer
+                2 Years <br></br>of experience as<br></br>Software Developer
                 Contractor at <br></br>Apple
               </p>
             </div>
@@ -35,11 +35,11 @@ class AboutMeCard extends Component {
           <div className="col-sm-4">
             <div className="skills ">
               <h3 style={{ textAlign: "center" }}>
-                <VscCode className="mobileIcon" />
+                <GiPoliceOfficerHead className="mobileIcon" />
               </h3>
               <p style={{ textAlign: "center" }}>
-                300+ <br></br>questions of<br></br>leetcode<br></br> this{" "}
-                <br></br>year
+                Initiation Officer <br></br>@<br></br> Tau Beta Pie<br></br>{" "}
+                Student Chapter, <br></br>SJSU
               </p>
             </div>
           </div>

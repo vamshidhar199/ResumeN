@@ -7,8 +7,17 @@ import {
   DiJava,
   DiJavascript1,
   DiNodejs,
+  DiDocker,
+  DiPython,
 } from "react-icons/di";
-import { SiApachekafka, SiJavascript, SiRedux } from "react-icons/si";
+import {
+  SiApachekafka,
+  SiJavascript,
+  SiRedux,
+  SiKubernetes,
+  SiMysql,
+  SiMongodb,
+} from "react-icons/si";
 
 class Tools extends Component {
   state = {};
@@ -126,9 +135,58 @@ class Tools extends Component {
               >
                 <div>
                   <DiJavascript1
-                    style={{ fontSize: "50px", marginLeft: "10px" }}
+                    style={{ fontSize: "45px", marginLeft: "10px" }}
                   />
                   <p>Java Script</p>
+                </div>
+              </div>
+
+              <div
+                className="col-sm tech"
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <div>
+                  <SiKubernetes style={{ fontSize: "50px" }} />
+                  <p>Kubernetes</p>
+                </div>
+              </div>
+
+              <div
+                className="col-sm tech"
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <div>
+                  <DiDocker style={{ fontSize: "50px", marginLeft: "10px" }} />
+                  <p>Docker</p>
+                </div>
+              </div>
+
+              <div
+                className="col-sm tech"
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <div>
+                  <DiPython style={{ fontSize: "50px", marginLeft: "10px" }} />
+                  <p>Python</p>
+                </div>
+              </div>
+
+              <div
+                className="col-sm tech"
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <div>
+                  <SiMysql style={{ fontSize: "50px" }} />
+                  <p>My SQL</p>
+                </div>
+              </div>
+              <div
+                className="col-sm tech"
+                style={{ display: "flex", justifyContent: "center" }}
+              >
+                <div>
+                  <SiMongodb style={{ fontSize: "50px" }} />
+                  <p>Mongo DB</p>
                 </div>
               </div>
             </div>

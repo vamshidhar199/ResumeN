@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import AboutMeCard from "./AboutMeCard";
-import myimage from "./../images/vamshi.jpg";
+import myimage from "./../images/Profile.jpeg";
 import "./AboutMe.css";
 import Overview from "./Overview";
 class AboutMe extends Component {
@@ -29,7 +29,7 @@ class AboutMe extends Component {
             className="col-sm-4 image-container"
             // style={{ display: "flex", justifyContent: "flex-end" }}
           >
-            <Overview/>
+            <Overview />
           </div>
         </div>
       </div>

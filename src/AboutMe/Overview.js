@@ -29,7 +29,9 @@ class Overview extends Component {
         </div>
         <div className="row">
           <div className="col-sm" style={{ display: "inline-block" }}>
-            <h4>TCS - client Apple</h4>
+            <h4 style={{ color: "white", fontWeight: "800" }}>
+              TCS - client Apple
+            </h4>
             {/* <AiFillApple fontSize={"50px"} style={{ paddingLeft: "0px" }} /> */}
             <h6>2020-2022</h6>
             <div className="row">
