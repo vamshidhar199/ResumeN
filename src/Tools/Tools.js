@@ -17,13 +17,20 @@ import {
   SiKubernetes,
   SiMysql,
   SiMongodb,
+  SiSpringboot,
 } from "react-icons/si";
-
+import { GiArtificialIntelligence } from "react-icons/gi";
+import DialogBox from "./DialogBox";
 class Tools extends Component {
-  state = {};
+  state = {
+    showDialogBox: false,
+  };
+  toggle = () => {
+    this.setState({ showDialogBox: !this.state.showDialogBox });
+  };
   render() {
     return (
-      <div className="container-fluid mobileClass">
+      <div className="container-fluid mobileClass" style={{ fontSize: "20px" }}>
         <div className="row" style={{ marginBottom: "10px" }}>
           <h1 style={{ textAlign: "center", color: "white" }}>Technologies</h1>
         </div>
@@ -105,8 +112,10 @@ class Tools extends Component {
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
-                  <SiRedux style={{ fontSize: "50px" }} />
-                  <p>Redux</p>
+                  <SiSpringboot
+                    style={{ fontSize: "50px", marginLeft: "25%" }}
+                  />
+                  <p>Spring Boot</p>
                 </div>
               </div>
               <div
@@ -124,18 +133,19 @@ class Tools extends Component {
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
-                  <DiSpark style={{ fontSize: "50px" }} />
-                  <p>Spark</p>
+                  <GiArtificialIntelligence
+                    style={{ fontSize: "50px", marginLeft: "12.54%" }}
+                  />
+                  <p>Open AI</p>
                 </div>
               </div>
-
               <div
                 className="col-sm tech"
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
                   <DiJavascript1
-                    style={{ fontSize: "45px", marginLeft: "10px" }}
+                    style={{ fontSize: "50px", marginLeft: "25%" }}
                   />
                   <p>Java Script</p>
                 </div>
@@ -146,17 +156,16 @@ class Tools extends Component {
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
-                  <SiKubernetes style={{ fontSize: "50px" }} />
-                  <p>Kubernetes</p>
+                  <DiSpark style={{ fontSize: "50px" }} />
+                  <p>Spark</p>
                 </div>
               </div>
-
               <div
                 className="col-sm tech"
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
-                  <DiDocker style={{ fontSize: "50px", marginLeft: "10px" }} />
+                  <DiDocker style={{ fontSize: "50px", marginLeft: "25%" }} />
                   <p>Docker</p>
                 </div>
               </div>
@@ -185,10 +194,16 @@ class Tools extends Component {
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
-                  <SiMongodb style={{ fontSize: "50px" }} />
+                  <SiMongodb style={{ fontSize: "50px", marginLeft: "25%" }} />
                   <p>Mongo DB</p>
                 </div>
               </div>
+            </div>
+            <div className="row techBack" style={{ textAlign: "center" }}>
+              <p onClick={this.toggle} style={{ cursor: "pointer" }}>
+                View More
+              </p>
+              {this.state.showDialogBox && <DialogBox toggle={this.toggle} />}
             </div>
           </div>
         </div>
