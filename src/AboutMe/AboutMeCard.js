@@ -18,6 +18,7 @@ class AboutMeCard extends Component {
                 2 Years <br></br>of experience as<br></br>Software Developer
                 Contractor at <br></br>Apple
               </p>
+              <div style={{ backgroundColor: "white", height: "10px" }}></div>
             </div>
           </div>
 
@@ -30,6 +31,7 @@ class AboutMeCard extends Component {
                 Master's in<br></br>Software Engineering<br></br>at
                 <br></br> San Jose State University, San Jose, California
               </p>
+              <div style={{ backgroundColor: "white", height: "10px" }}></div>
             </div>
           </div>
           <div className="col-sm-4">
@@ -41,6 +43,7 @@ class AboutMeCard extends Component {
                 Initiation Officer <br></br>@<br></br> Tau Beta Pie<br></br>{" "}
                 Student Chapter, <br></br>SJSU
               </p>
+              <div style={{ backgroundColor: "white", height: "10px" }}></div>
             </div>
           </div>
         </div>
@@ -60,6 +63,7 @@ class AboutMeCard extends Component {
                 to join a dynamic and innovative software company where I can
                 contribute my skills and grow as a professional.
               </p>
+              <div style={{ backgroundColor: "white", height: "10px" }}></div>
             </div>
           </div>
         </div>

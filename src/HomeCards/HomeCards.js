@@ -58,6 +58,8 @@ class HomeCards extends Component {
                 description={this.props.description}
                 title={this.props.projectname}
                 toggleShowFullDescription={this.toggleShowFullDescription}
+                Tools={this.props.Tools}
+                Link={this.props.link}
               />
 
               {this.props.description.slice(0, MAX_LENGTH)}
@@ -90,7 +92,7 @@ class HomeCards extends Component {
               window.location.href = this.props.link;
             }}
           >
-            Learn More
+            Github
           </Button>
         </CardActions>
       </Card>

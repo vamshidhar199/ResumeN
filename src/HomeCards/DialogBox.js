@@ -25,8 +25,23 @@ function DialogBox(props) {
         <Modal.Header closeButton>
           <Modal.Title>{props.title}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>{props.description}</Modal.Body>
+        <Modal.Body>
+          <p style={{ textAlign: "justify" }}>{props.description}</p>
+        </Modal.Body>
         <Modal.Footer>
+          <p>
+            <b>Tools and Technologies:</b>
+            {props.Tools}
+          </p>
+
+          <Button
+            variant="primary"
+            onClick={(e) => {
+              window.location.href = props.Link;
+            }}
+          >
+            GitHub
+          </Button>
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>
