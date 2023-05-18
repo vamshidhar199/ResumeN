@@ -10,6 +10,8 @@ class HomeGrid extends Component {
 
   render() {
     let description = {
+      solarPanels:
+        "This project focuses on improving the efficiency and accuracy of solar panel production by using artificial intelligence and machine learning techniques to automate the inspection process. The project utilizes a YOLO V8 model for anomaly detection from real-time video feed, along with a ROS pipeline on a Jetson developer kit for faster development and deployment. The goal is to create a robust and efficient system for the manufacturing industry to ensure optimal performance and longevity of solar panels.",
       airportManagement:
         "Developed airport management system web app using React JS, Node JS, and MongoDB. Provided comprehensive solution for managing flight schedules, employee logins, and added features such as adding flights, updating schedules, auto-assigning baggage carousels and gates",
       walmart:
@@ -22,6 +24,15 @@ class HomeGrid extends Component {
         "It is an OpenCV project designed to alert the driver if he is feeling drowsy and alert him by generating sound to wake him thereby preventing fatal accidents. I have used OpenCV libraries for image recognition, and python and flask to develop user interface for this application.",
       drone:
         "Developed autonomous drone rental system for farm surveying and pesticide spraying using cloud mission planning and Ardupilot simulation. Designed to allow farmers to easily book services by registering their farm coordinates, ensuring drones fly to the correct location and return safely.",
+    };
+    let links = {
+      solarPanels: "",
+      airportManagement: "",
+      walmart: "",
+      crypto: "",
+      cascade: "",
+      drowsiness: "",
+      drone: "https://github.com/vamshidhar199/CloudComputingDrone",
     };
     return (
       <div className="container-fluid homegrid-main">
@@ -41,18 +52,21 @@ class HomeGrid extends Component {
             <HomeCards
               projectname="Autonomus Drone Rental System"
               description={description.drone}
+              link={links.drone}
             />
           </div>
           <div class="col-sm card-padding card-paddingMob">
             <HomeCards
-              projectname="Airport Management System"
-              description={description.airportManagement}
+              projectname="Anomaly Detection in Solar Panels"
+              description={description.solarPanels}
+              link={links.solarPanels}
             />
           </div>
           <div class="col-sm card-padding card-paddingMob">
             <HomeCards
               projectname="Walmart Sales Prediction"
               description={description.walmart}
+              link={links.walmart}
             />
           </div>
         </div>
@@ -61,18 +75,21 @@ class HomeGrid extends Component {
             <HomeCards
               projectname="Crypto Tracker"
               description={description.crypto}
+              link={links.crypto}
             />
           </div>
           <div class="col-sm card-padding card-paddingMob">
             <HomeCards
               projectname="Cascade [Project at Apple Inc]"
               description={description.cascade}
+              link={links.cascade}
             />
           </div>
           <div class="col-sm card-padding card-paddingMob">
             <HomeCards
               projectname="Drowsiness Detection System"
               description={description.drowsiness}
+              link={links.drowsiness}
             />
           </div>
         </div>
