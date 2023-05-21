@@ -27,14 +27,14 @@ class Experience extends Component {
             <img src={tcs} className="exp-box-img"></img>
             <p className="exp-box-p">
               Software Developer <br></br>
-              2020 - 2021
+              2020 - 2022
             </p>
           </div>
           <div className="col-sm exp-box exp-box-mob">
             <AiFillApple fontSize={"50px"} style={{ paddingLeft: "10px" }} />
             <p className="exp-box-p">
               Software Developer Contractor<br></br>
-              2020 - 2021
+              2020 - 2022
             </p>
           </div>
           <div className="col-sm exp-box exp-box-mob">
