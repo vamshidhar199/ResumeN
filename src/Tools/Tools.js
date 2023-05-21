@@ -82,7 +82,7 @@ class Tools extends Component {
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
-                  <DiJava style={{ fontSize: "50px" }} />
+                  <DiJava style={{ fontSize: "45px" }} />
                   <p>Java</p>
                 </div>
               </div>
@@ -92,7 +92,7 @@ class Tools extends Component {
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
-                  <DiReact style={{ fontSize: "50px", marginLeft: "10px" }} />
+                  <DiReact style={{ fontSize: "45px", marginLeft: "10px" }} />
                   <p>React JS</p>
                 </div>
               </div>
@@ -102,7 +102,7 @@ class Tools extends Component {
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
-                  <DiNodejs style={{ fontSize: "50px", marginLeft: "10px" }} />
+                  <DiNodejs style={{ fontSize: "45px", marginLeft: "10px" }} />
                   <p>Node JS</p>
                 </div>
               </div>
@@ -113,7 +113,7 @@ class Tools extends Component {
               >
                 <div>
                   <SiSpringboot
-                    style={{ fontSize: "50px", marginLeft: "25%" }}
+                    style={{ fontSize: "45px", marginLeft: "25%" }}
                   />
                   <p>Spring Boot</p>
                 </div>
@@ -123,7 +123,7 @@ class Tools extends Component {
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
-                  <SiApachekafka style={{ fontSize: "50px" }} />
+                  <SiApachekafka style={{ fontSize: "45px" }} />
                   <p>Kafka</p>
                 </div>
               </div>
@@ -134,7 +134,7 @@ class Tools extends Component {
               >
                 <div>
                   <GiArtificialIntelligence
-                    style={{ fontSize: "50px", marginLeft: "12.54%" }}
+                    style={{ fontSize: "45px", marginLeft: "12.54%" }}
                   />
                   <p>Open AI</p>
                 </div>
@@ -145,7 +145,7 @@ class Tools extends Component {
               >
                 <div>
                   <DiJavascript1
-                    style={{ fontSize: "50px", marginLeft: "25%" }}
+                    style={{ fontSize: "45px", marginLeft: "25%" }}
                   />
                   <p>Java Script</p>
                 </div>
@@ -156,7 +156,7 @@ class Tools extends Component {
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
-                  <DiSpark style={{ fontSize: "50px" }} />
+                  <DiSpark style={{ fontSize: "45px" }} />
                   <p>Spark</p>
                 </div>
               </div>
@@ -165,7 +165,7 @@ class Tools extends Component {
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
-                  <DiDocker style={{ fontSize: "50px", marginLeft: "25%" }} />
+                  <DiDocker style={{ fontSize: "45px", marginLeft: "25%" }} />
                   <p>Docker</p>
                 </div>
               </div>
@@ -175,7 +175,7 @@ class Tools extends Component {
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
-                  <DiPython style={{ fontSize: "50px", marginLeft: "10px" }} />
+                  <DiPython style={{ fontSize: "45px", marginLeft: "10px" }} />
                   <p>Python</p>
                 </div>
               </div>
@@ -185,7 +185,7 @@ class Tools extends Component {
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
-                  <SiMysql style={{ fontSize: "50px" }} />
+                  <SiMysql style={{ fontSize: "45px" }} />
                   <p>My SQL</p>
                 </div>
               </div>
@@ -194,7 +194,7 @@ class Tools extends Component {
                 style={{ display: "flex", justifyContent: "center" }}
               >
                 <div>
-                  <SiMongodb style={{ fontSize: "50px", marginLeft: "25%" }} />
+                  <SiMongodb style={{ fontSize: "45px", marginLeft: "25%" }} />
                   <p>Mongo DB</p>
                 </div>
               </div>
