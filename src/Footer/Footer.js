@@ -28,6 +28,7 @@ class Footer extends Component {
                     color: "black",
                     fontSize: "30px",
                     marginRight: "10px",
+                    cursor: "pointer",
                   }}
                   onClick={() => {
                     window.open("https://wa.me/+16194968541", "_blank");
@@ -40,6 +41,7 @@ class Footer extends Component {
                     color: "black",
                     fontSize: "30px",
                     marginRight: "10px",
+                    cursor: "pointer",
                   }}
                   onClick={() => {
                     window.location.href = "mailto:vparupally@gmail.com";
@@ -48,7 +50,11 @@ class Footer extends Component {
                 {/* </div>
               <div className="col-sm-1 contactmeMobile"> */}
                 <AiFillLinkedin
-                  style={{ color: "black", fontSize: "30px" }}
+                  style={{
+                    color: "black",
+                    fontSize: "30px",
+                    cursor: "pointer",
+                  }}
                   onClick={() => {
                     window.open(
                       "https://www.linkedin.com/in/vamshidhar-reddy-parupally-550080170/",
