@@ -35,7 +35,8 @@ class Section1 extends Component {
                       {(props) => (
                         <animated.div style={props}>
                           {" "}
-                          Master's Student at SJSU
+                          SDE Intern at Amazon
+                          <br></br>| Master's Student at SJSU
                           <br></br>| Ex Software Developer at TCS
                           <br></br>| Worked for Apple Sales Unit
                         </animated.div>
