@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import { MdBadge, MdCastForEducation } from "react-icons/md";
 import sjsu from "./../images/logo-sjsu.svg";
-import tcs from "./../images/tcs1.png";
+import amazon from "./../images/amazon1.png";
 import { FaAmazon } from "react-icons/fa";
 import agi from "./../images/agiLogo.png";
-import amazon from "./../images/amazon.png";
 
 import "./Overview.css";
 class Overview extends Component {
@@ -17,7 +16,12 @@ class Overview extends Component {
             className="col-sm"
             style={{ display: "inline-block", borderRight: "1px solid white" }}
           >
-            <FaAmazon style={{ fontSize: "45px", marginTop: "10px" }} />
+            {/* <FaAmazon style={{ fontSize: "45px", marginTop: "10px" }} /> */}
+            <img
+              src={amazon}
+              className="exp-box-img"
+              style={{ display: "inline", paddingLeft: "0px", width: "120px" }}
+            ></img>
             <h6>2023-Current</h6>
             <div className="row">
               <div className="col-sm" style={{ paddingLeft: "50px" }}>

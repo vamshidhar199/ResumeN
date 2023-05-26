@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Experinece.css";
 import agi from "./../images/agiLogo.png";
-import apple from "./../images/apple.png";
+import amazon from "./../images/amazon1.png";
 import sjsu from "./../images/logo-sjsu.svg";
 import tcs from "./../images/tcs1.png";
 import { AiFillApple } from "react-icons/ai";
@@ -14,6 +14,18 @@ class Experience extends Component {
           <h1 style={{ textAlign: "center", color: "white" }}>Background</h1>
         </div>
         <div className="row">
+          <div className="col-sm exp-box exp-box-mob">
+            <img
+              src={amazon}
+              className="exp-box-img"
+              style={{ width: "120px" }}
+            ></img>
+            <p className="exp-box-p">
+              SDE Intern<br></br>
+              2023 - Current
+            </p>
+          </div>
+
           <div className="col-sm exp-box exp-box-mob">
             <img src={sjsu} className="exp-box-img"></img>
             <p className="exp-box-p">
