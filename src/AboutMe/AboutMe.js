@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import AboutMeCard from "./AboutMeCard";
-import myimage from "./../images/Profile.jpeg";
+import myimage from "./../images/ProfileNew.jpeg";
 import "./AboutMe.css";
 import Overview from "./Overview";
 class AboutMe extends Component {
