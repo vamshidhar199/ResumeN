@@ -13,16 +13,18 @@ class Overview extends Component {
       <div className="container-fluid overview">
         <div className="row" style={{ textAlign: "center" }}>
           <div
-            className="col-sm"
+            className="col-sm experienceTile"
             style={{ display: "inline-block", borderRight: "1px solid white" }}
           >
             {/* <FaAmazon style={{ fontSize: "45px", marginTop: "10px" }} /> */}
             <img
-              src={amazon}
+              src={
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png?20220213013322"
+              }
               className="exp-box-img"
               style={{ display: "inline", paddingLeft: "0px", width: "120px" }}
             ></img>
-            <h6>2023-Current</h6>
+            <h6>Summer 2023</h6>
             <div className="row">
               <div className="col-sm" style={{ paddingLeft: "50px" }}>
                 <p className="listing">SDE Intern </p>
@@ -30,7 +32,10 @@ class Overview extends Component {
               </div>
             </div>
           </div>
-          <div className="col-sm" style={{ display: "inline-block" }}>
+          <div
+            className="col-sm experienceTile"
+            style={{ backgroundColor: "#09599e" }}
+          >
             <img
               src={sjsu}
               className="exp-box-img"
@@ -47,12 +52,21 @@ class Overview extends Component {
         </div>
         <div className="row" style={{ textAlign: "center" }}>
           <div
-            className="col-sm"
-            style={{ display: "inline-block", borderRight: "1px solid white" }}
+            className="col-sm experienceTile"
+            style={{
+              backgroundColor: "#5F68C3",
+            }}
           >
-            <h4 style={{ color: "white", fontWeight: "800" }}>
+            {/* <h4 style={{ color: "white", fontWeight: "800" }}>
               Tata Consultancy Services
-            </h4>
+            </h4> */}
+            <img
+              src={
+                "https://www.tcs.com/content/dam/global-tcs/en/images/home/dark-theme.svg"
+              }
+              className="exp-box-img"
+              style={{ display: "inline", paddingLeft: "0px", width: "160px" }}
+            ></img>
             {/* <AiFillApple fontSize={"50px"} style={{ paddingLeft: "0px" }} /> */}
             <h6>2020-2022</h6>
             <div className="row">
@@ -63,7 +77,10 @@ class Overview extends Component {
             </div>
           </div>
 
-          <div className="col-sm" style={{ display: "inline-block" }}>
+          <div
+            className="col-sm experienceTile"
+            style={{ display: "inline-block" }}
+          >
             <img
               src={agi}
               className="exp-box-img"

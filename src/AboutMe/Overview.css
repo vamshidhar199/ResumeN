@@ -2,7 +2,7 @@
   opacity: 0.8;
   min-height: 150px;
   min-width: 120px;
-  background-color: rgb(117, 128, 133) !important;
+  /* background-color: rgb(117, 128, 133) !important; */
   padding: 5px;
   color: black;
   transition: transform 0.2s; /* Animation */
@@ -14,4 +14,19 @@ h6 {
 }
 .listing {
   display: list-item;
+}
+
+.experienceTile {
+  background-color: #ff9800; /* Light gray background color */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Add some padding for content inside the div */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle lift */
+  margin-left: 5px;
+  min-height: 120px;
+}
+
+@media (max-width: 768px) {
+  .overview {
+    display: none;
+  }
 }

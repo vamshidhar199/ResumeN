@@ -16,13 +16,15 @@ class Experience extends Component {
         <div className="row">
           <div className="col-sm exp-box exp-box-mob">
             <img
-              src={amazon}
+              src={
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png?20220213013322"
+              }
               className="exp-box-img"
-              style={{ width: "120px" }}
+              style={{ width: "145px" }}
             ></img>
             <p className="exp-box-p">
               SDE Intern<br></br>
-              2023 - Current
+              Summer 2023
             </p>
           </div>
 
