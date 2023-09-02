@@ -10,3 +10,16 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 820px) {
+  .image-container {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  /* Adjust the breakpoint (992px) as needed */
+  .aboutMeCardStyle {
+    min-width: 760px; /* Adjust the minimum width as needed */
+  }
+}

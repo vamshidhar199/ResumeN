@@ -15,12 +15,12 @@
   padding: 5px;
   margin-left: 10px;
   margin-right: 10px;
-  height: 285px;
+  height: 50%;
   transition: transform 0.2s; /* Animation */
 }
 @media only screen and (max-width: 600px) {
   .card-paddingMob {
-    margin-bottom: 105px;
+    margin-bottom: 20vw;
   }
 }
 

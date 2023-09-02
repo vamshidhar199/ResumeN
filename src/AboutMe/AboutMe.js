@@ -12,21 +12,18 @@ class AboutMe extends Component {
           <h1 style={{ textAlign: "center", color: "white" }}>About Me</h1>
         </div>
         <div className="row">
-          <div
-            className="col-sm-2 image-container"
-            // style={{ display: "flex", justifyContent: "flex-end" }}
-          >
+          <div className="col-sm image-container">
             <img
               src={myimage}
-              height="420px"
-              style={{ marginLeft: "20px", borderRadius: "5px" }}
+              height="420vw"
+              style={{ borderRadius: "5px" }}
             ></img>
           </div>
-          <div className="col-sm-6">
+          <div className="col-sm aboutMeCardStyle">
             <AboutMeCard />
           </div>
           <div
-            className="col-sm-4 image-container"
+            className="col-sm  image-container"
             // style={{ display: "flex", justifyContent: "flex-end" }}
           >
             <Overview />
